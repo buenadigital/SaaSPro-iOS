@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsModel"
+provides-nominal:
+- "C7SaaSPro13SettingsModel"
+provides-member:
+- ["C7SaaSPro13SettingsModel", ""]
+provides-dynamic-lookup:
+- "securityQuestionValidated"
+- "saveCredentials"
+- "password"
+- "token"
+- "tokenExpirationDate"
+- "securityQuestion"
+- "account"
+- "email"
+depends-top-level:
+- "EVObject"
+- "SettingsModel"
+- "Bool"
+- "BooleanLiteralType"
+- "String"
+depends-member:
+- ["PSs9AnyObject", "account"]
+- ["PSs9AnyObject", "email"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "password"]
+- ["PSs9AnyObject", "saveCredentials"]
+- ["PSs9AnyObject", "securityQuestion"]
+- ["PSs9AnyObject", "securityQuestionValidated"]
+- ["PSs9AnyObject", "token"]
+- ["PSs9AnyObject", "tokenExpirationDate"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "account"]
+- ["PSs11CVarArgType", "email"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "password"]
+- ["PSs11CVarArgType", "saveCredentials"]
+- ["PSs11CVarArgType", "securityQuestion"]
+- ["PSs11CVarArgType", "securityQuestionValidated"]
+- ["PSs11CVarArgType", "token"]
+- ["PSs11CVarArgType", "tokenExpirationDate"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "account"]
+- ["PSs28CustomDebugStringConvertible", "email"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs28CustomDebugStringConvertible", "password"]
+- ["PSs28CustomDebugStringConvertible", "saveCredentials"]
+- ["PSs28CustomDebugStringConvertible", "securityQuestion"]
+- ["PSs28CustomDebugStringConvertible", "securityQuestionValidated"]
+- ["PSs28CustomDebugStringConvertible", "token"]
+- ["PSs28CustomDebugStringConvertible", "tokenExpirationDate"]
+- ["PSs28CustomDebugStringConvertible", ""]
+- ["PSs23CustomStringConvertible", "account"]
+- ["PSs23CustomStringConvertible", "email"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "password"]
+- ["PSs23CustomStringConvertible", "saveCredentials"]
+- ["PSs23CustomStringConvertible", "securityQuestion"]
+- ["PSs23CustomStringConvertible", "securityQuestionValidated"]
+- ["PSs23CustomStringConvertible", "token"]
+- ["PSs23CustomStringConvertible", "tokenExpirationDate"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C7SaaSPro8EVObject", "Bool"]
+- ["C7SaaSPro8EVObject", "String"]
+- ["C7SaaSPro8EVObject", "account"]
+- ["C7SaaSPro8EVObject", "email"]
+- ["C7SaaSPro8EVObject", "init"]
+- ["C7SaaSPro8EVObject", "password"]
+- ["C7SaaSPro8EVObject", "saveCredentials"]
+- ["C7SaaSPro8EVObject", "securityQuestion"]
+- ["C7SaaSPro8EVObject", "securityQuestionValidated"]
+- ["C7SaaSPro8EVObject", "token"]
+- ["C7SaaSPro8EVObject", "tokenExpirationDate"]
+- ["C7SaaSPro8EVObject", ""]
+- ["PSs9Equatable", "account"]
+- ["PSs9Equatable", "email"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "password"]
+- ["PSs9Equatable", "saveCredentials"]
+- ["PSs9Equatable", "securityQuestion"]
+- ["PSs9Equatable", "securityQuestionValidated"]
+- ["PSs9Equatable", "token"]
+- ["PSs9Equatable", "tokenExpirationDate"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "account"]
+- ["PSs8Hashable", "email"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "password"]
+- ["PSs8Hashable", "saveCredentials"]
+- ["PSs8Hashable", "securityQuestion"]
+- ["PSs8Hashable", "securityQuestionValidated"]
+- ["PSs8Hashable", "token"]
+- ["PSs8Hashable", "tokenExpirationDate"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "account"]
+- ["PSo8NSCoding", "email"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "password"]
+- ["PSo8NSCoding", "saveCredentials"]
+- ["PSo8NSCoding", "securityQuestion"]
+- ["PSo8NSCoding", "securityQuestionValidated"]
+- ["PSo8NSCoding", "token"]
+- ["PSo8NSCoding", "tokenExpirationDate"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "account"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "saveCredentials"]
+- ["CSo8NSObject", "securityQuestion"]
+- ["CSo8NSObject", "securityQuestionValidated"]
+- ["CSo8NSObject", "token"]
+- ["CSo8NSObject", "tokenExpirationDate"]
+- ["PSo16NSObjectProtocol", "account"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "password"]
+- ["PSo16NSObjectProtocol", "saveCredentials"]
+- ["PSo16NSObjectProtocol", "securityQuestion"]
+- ["PSo16NSObjectProtocol", "securityQuestionValidated"]
+- ["PSo16NSObjectProtocol", "token"]
+- ["PSo16NSObjectProtocol", "tokenExpirationDate"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C7SaaSPro13SettingsModel", "Bool"]
+- ["C7SaaSPro13SettingsModel", "String"]
+- ["C7SaaSPro13SettingsModel", "account"]
+- ["C7SaaSPro13SettingsModel", "deinit"]
+- ["C7SaaSPro13SettingsModel", "email"]
+- ["C7SaaSPro13SettingsModel", "init"]
+- ["C7SaaSPro13SettingsModel", "password"]
+- ["C7SaaSPro13SettingsModel", "saveCredentials"]
+- ["C7SaaSPro13SettingsModel", "securityQuestion"]
+- ["C7SaaSPro13SettingsModel", "securityQuestionValidated"]
+- ["C7SaaSPro13SettingsModel", "token"]
+- ["C7SaaSPro13SettingsModel", "tokenExpirationDate"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "C7SaaSPro8EVObject"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7SaaSPro13SettingsModel"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SaaSPro-Bridging-Header.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SWRevealViewController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/MaterialKit.swiftmodule/i386.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-Swift.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/module.modulemap"
+interface-hash: "3e5b72d3c06e5cf6f933144c406d869f"

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7d5451cc-17d6-4b64-b183-cee5fb23c892",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "7d5451cc-17d6-4b64-b183-cee5fb23c892" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7d5451cc-17d6-4b64-b183-cee5fb23c892" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "21E9EE60-3818-4081-AEA4-1B04DD7143A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7d5451cc-17d6-4b64-b183-cee5fb23c892" : "buenadigital_saaspro\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SaaSPro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IOS\/SaaSPro.IOS\/SaaSPro.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/buenadigital.repositoryhosting.com\/svn\/buenadigital_saaspro-apps",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7d5451cc-17d6-4b64-b183-cee5fb23c892"
+    }
+  ]
+}

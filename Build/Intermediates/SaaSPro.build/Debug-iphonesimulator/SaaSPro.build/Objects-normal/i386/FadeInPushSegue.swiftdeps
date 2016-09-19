@@ -1,0 +1,270 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FadeInPushSegue"
+provides-nominal:
+- "C7SaaSPro15FadeInPushSegue"
+provides-member:
+- ["C7SaaSPro15FadeInPushSegue", ""]
+provides-dynamic-lookup:
+- "animated"
+- "perform"
+depends-top-level:
+- !private "UIViewController"
+- !private "StringLiteralType"
+- "UIStoryboardSegue"
+- "Bool"
+- !private "kCATransitionFade"
+- "FadeInPushSegue"
+- !private "CATransition"
+- "BooleanLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "CATransition"]
+- !private ["PSs9AnyObject", "addAnimation"]
+- ["PSs9AnyObject", "animated"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kCATransitionFade"]
+- !private ["PSs9AnyObject", "layer"]
+- !private ["PSs9AnyObject", "navigationController"]
+- ["PSs9AnyObject", "perform"]
+- !private ["PSs9AnyObject", "pushViewController"]
+- !private ["PSs9AnyObject", "sourceViewController"]
+- !private ["PSs9AnyObject", "type"]
+- !private ["PSs9AnyObject", "view"]
+- !private ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "type"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "type"]
+- !private ["CSo7CALayer", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "type"]
+- !private ["CSo12CATransition", "init"]
+- !private ["CSo12CATransition", "type"]
+- !private ["PSs11CVarArgType", "CATransition"]
+- !private ["PSs11CVarArgType", "addAnimation"]
+- ["PSs11CVarArgType", "animated"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "kCATransitionFade"]
+- !private ["PSs11CVarArgType", "layer"]
+- !private ["PSs11CVarArgType", "navigationController"]
+- ["PSs11CVarArgType", "perform"]
+- !private ["PSs11CVarArgType", "pushViewController"]
+- !private ["PSs11CVarArgType", "sourceViewController"]
+- !private ["PSs11CVarArgType", "type"]
+- !private ["PSs11CVarArgType", "view"]
+- !private ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "CATransition"]
+- !private ["PSs23CustomStringConvertible", "addAnimation"]
+- ["PSs23CustomStringConvertible", "animated"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "kCATransitionFade"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- !private ["PSs23CustomStringConvertible", "navigationController"]
+- ["PSs23CustomStringConvertible", "perform"]
+- !private ["PSs23CustomStringConvertible", "pushViewController"]
+- !private ["PSs23CustomStringConvertible", "sourceViewController"]
+- !private ["PSs23CustomStringConvertible", "type"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- !private ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CATransition"]
+- !private ["PSs9Equatable", "addAnimation"]
+- ["PSs9Equatable", "animated"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "kCATransitionFade"]
+- !private ["PSs9Equatable", "layer"]
+- !private ["PSs9Equatable", "navigationController"]
+- ["PSs9Equatable", "perform"]
+- !private ["PSs9Equatable", "pushViewController"]
+- !private ["PSs9Equatable", "sourceViewController"]
+- !private ["PSs9Equatable", "type"]
+- !private ["PSs9Equatable", "view"]
+- !private ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- ["C7SaaSPro15FadeInPushSegue", "Bool"]
+- !private ["C7SaaSPro15FadeInPushSegue", "CATransition"]
+- !private ["C7SaaSPro15FadeInPushSegue", "UIViewController"]
+- ["C7SaaSPro15FadeInPushSegue", "animated"]
+- ["C7SaaSPro15FadeInPushSegue", "deinit"]
+- !private ["C7SaaSPro15FadeInPushSegue", "destinationViewController"]
+- ["C7SaaSPro15FadeInPushSegue", "init"]
+- !private ["C7SaaSPro15FadeInPushSegue", "kCATransitionFade"]
+- ["C7SaaSPro15FadeInPushSegue", "perform"]
+- !private ["C7SaaSPro15FadeInPushSegue", "sourceViewController"]
+- !private ["PSs8Hashable", "CATransition"]
+- !private ["PSs8Hashable", "addAnimation"]
+- ["PSs8Hashable", "animated"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "kCATransitionFade"]
+- !private ["PSs8Hashable", "layer"]
+- !private ["PSs8Hashable", "navigationController"]
+- ["PSs8Hashable", "perform"]
+- !private ["PSs8Hashable", "pushViewController"]
+- !private ["PSs8Hashable", "sourceViewController"]
+- !private ["PSs8Hashable", "type"]
+- !private ["PSs8Hashable", "view"]
+- !private ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "type"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "window"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "type"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CATransition"]
+- !private ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addAnimation"]
+- ["CSo8NSObject", "animated"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCATransitionFade"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "perform"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "sourceViewController"]
+- !private ["CSo8NSObject", "type"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CATransition"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- ["PSo16NSObjectProtocol", "animated"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCATransitionFade"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "perform"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "sourceViewController"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "window"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "window"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "window"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "window"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "window"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "window"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["CSo11UIResponder", "window"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["CSo17UIStoryboardSegue", "Bool"]
+- !private ["CSo17UIStoryboardSegue", "CATransition"]
+- !private ["CSo17UIStoryboardSegue", "UIViewController"]
+- ["CSo17UIStoryboardSegue", "animated"]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- ["CSo17UIStoryboardSegue", "init"]
+- !private ["CSo17UIStoryboardSegue", "kCATransitionFade"]
+- ["CSo17UIStoryboardSegue", "perform"]
+- !private ["CSo17UIStoryboardSegue", "sourceViewController"]
+- ["CSo17UIStoryboardSegue", ""]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "window"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "window"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["CSo8UIWindow", "layer"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "window"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo12CATransition"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "C7SaaSPro15FadeInPushSegue"
+- "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SaaSPro-Bridging-Header.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SWRevealViewController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/MaterialKit.swiftmodule/i386.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-Swift.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/module.modulemap"
+interface-hash: "11b0656790e3f674e49110904ef7916e"

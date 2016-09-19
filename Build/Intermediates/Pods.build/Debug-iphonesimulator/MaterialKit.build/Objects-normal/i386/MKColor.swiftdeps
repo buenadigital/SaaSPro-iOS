@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VE11MaterialKitCSo7UIColor7MKColor"
+provides-member:
+- ["CSo7UIColor", ""]
+- ["VE11MaterialKitCSo7UIColor7MKColor", ""]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "MKColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- !private "&"
+- !private ">>"
+- "UIColor"
+- !private "/"
+- "CGFloat"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- ["PSs9AnyObject", "UIColor"]
+- ["PSs9AnyObject", "init"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- ["PSs11CVarArgType", "UIColor"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- ["PSs23CustomStringConvertible", "UIColor"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs9Equatable", "CGFloat"]
+- ["PSs9Equatable", "UIColor"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- ["PSs8Hashable", "UIColor"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Amber"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Blue"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "BlueGrey"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Brown"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Cyan"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "DeepOrange"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "DeepPurple"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Green"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Grey"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Indigo"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "LightBlue"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "LightGreen"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Lime"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Orange"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Pink"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Purple"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Red"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Teal"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "UIColor"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "Yellow"]
+- ["VE11MaterialKitCSo7UIColor7MKColor", "init"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- ["PSo8NSCoding", "UIColor"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- ["PSo9NSCopying", "UIColor"]
+- ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "CGFloat"]
+- ["PSo14NSSecureCoding", "UIColor"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- ["CSo7UIColor", "CGFloat"]
+- ["CSo7UIColor", "Int"]
+- ["CSo7UIColor", "MKColor"]
+- ["CSo7UIColor", "UIColor"]
+- ["CSo7UIColor", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "CGFloat"]
+- ["PSs24_ColorLiteralConvertible", "UIColor"]
+- ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- "VE11MaterialKitCSo7UIColor7MKColor"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- "CSo7UIColor"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/Target Support Files/MaterialKit/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/MaterialKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "9afc2442a6222e38049d4373ebaa05fc"

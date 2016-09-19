@@ -1,0 +1,23 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "302f970271a8fc114cc37831ccc87e92"
+build_time: [527633783, 247294000]
+inputs:
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/UIViewAnimationExtension.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/EVExtensions.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SettingsService.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SettingsModel.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/RegExtension.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/CheckQuestionViewController.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/LeftSlideMenuCellView.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/WebService.swift": [514572514, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/Constants.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/EVReflection.swift": [514572514, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/LoginViewController.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/EVObjectDescription.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/FadeInPushSegue.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/AppDelegate.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SplashScreenViewController.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/EVObject.swift": [525919968, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/MainPageViewController.swift": [514572515, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SlideMenuViewController.swift": [514572514, 0]
+  "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/FadeOutPopSegue.swift": [514572515, 0]

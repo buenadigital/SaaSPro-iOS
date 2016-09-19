@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "5b04110aa9e6ce0d026060cabc04749f"
+build_time: [501896168, 806980000]
+inputs:
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKColor.swift": [501835514, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKTableViewCell.swift": [501837138, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKImageView.swift": [501837091, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKButton.swift": [501837210, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKLayer.swift": [501835514, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKTextField.swift": [501837174, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/MaterialKit/Source/MKLabel.swift": [501837048, 0]

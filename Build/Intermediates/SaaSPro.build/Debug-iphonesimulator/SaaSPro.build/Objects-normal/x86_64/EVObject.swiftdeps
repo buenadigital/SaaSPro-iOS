@@ -1,0 +1,701 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EVObject"
+- "EVGenericsKVC"
+- "EVRawInt"
+- "EVRawString"
+- "EVRaw"
+- "EVArrayConvertable"
+- "EVAssociated"
+provides-nominal:
+- "C7SaaSPro8EVObject"
+- "P7SaaSPro13EVGenericsKVC"
+- "P7SaaSPro8EVRawInt"
+- "P7SaaSPro11EVRawString"
+- "P7SaaSPro5EVRaw"
+- "P7SaaSPro18EVArrayConvertable"
+- "P7SaaSPro12EVAssociated"
+provides-member:
+- ["C7SaaSPro8EVObject", ""]
+- ["P7SaaSPro13EVGenericsKVC", ""]
+- ["P7SaaSPro8EVRawInt", ""]
+- ["P7SaaSPro11EVRawString", ""]
+- ["P7SaaSPro5EVRaw", ""]
+- ["P7SaaSPro18EVArrayConvertable", ""]
+- ["P7SaaSPro12EVAssociated", ""]
+- ["Vs10Dictionary", ""]
+- ["P7SaaSPro12EVAssociated", "associated"]
+- ["Vs10Dictionary", "init"]
+provides-dynamic-lookup:
+- "saveToDocuments"
+- "description"
+- "encodeWithCoder"
+- "hash"
+- "saveToTemp"
+- "debugDescription"
+- "hashValue"
+- "setValue"
+- "isEqual"
+depends-top-level:
+- "EVRaw"
+- "Bool"
+- "EVGenericsKVC"
+- "AnyObject"
+- "String"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "NSLog"
+- "Dictionary"
+- "NSCoder"
+- "NSCoding"
+- !private "NSKeyedArchiver"
+- !private "StringLiteralType"
+- !private "NSString"
+- !private "=="
+- "EVAssociated"
+- !private "NSKeyedUnarchiver"
+- "Int"
+- !private "Mirror"
+- !private "NSTemporaryDirectory"
+- !private "print"
+- !private "!="
+- "EVObject"
+- "EVRawInt"
+- "EVArrayConvertable"
+- "NSDictionary"
+- "EVRawString"
+- "NSObject"
+- "Any"
+- "NSArray"
+- !private "BooleanLiteralType"
+- !private "EVReflection"
+depends-member:
+- !private ["Ps17AnyCollectionType", "Generator"]
+- !private ["Ps17AnyCollectionType", "Index"]
+- !private ["Ps17AnyCollectionType", "SubSequence"]
+- !private ["Ps17AnyCollectionType", "_Element"]
+- !private ["Ps17AnyCollectionType", "first"]
+- !private ["Vs20AnyForwardCollection", "Generator"]
+- !private ["Vs20AnyForwardCollection", "Index"]
+- !private ["Vs20AnyForwardCollection", "SubSequence"]
+- !private ["Vs20AnyForwardCollection", "_Element"]
+- !private ["Vs20AnyForwardCollection", "first"]
+- !private ["Vs15AnyForwardIndex", "Distance"]
+- !private ["Vs15AnyForwardIndex", "_DisabledRangeIndex"]
+- !private ["Vs12AnyGenerator", "Element"]
+- !private ["Ps9AnyObject", "EVReflection"]
+- !private ["Ps9AnyObject", "NSKeyedArchiver"]
+- !private ["Ps9AnyObject", "NSKeyedUnarchiver"]
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9AnyObject", "NSTemporaryDirectory"]
+- !private ["Ps9AnyObject", "archiveRootObject"]
+- ["Ps9AnyObject", "debugDescription"]
+- !private ["Ps9AnyObject", "decodeObjectWithCoder"]
+- ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "dictionaryFromJson"]
+- ["Ps9AnyObject", "encodeWithCoder"]
+- ["Ps9AnyObject", "hash"]
+- ["Ps9AnyObject", "hashValue"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isEqual"]
+- ["Ps9AnyObject", "propertyConverters"]
+- ["Ps9AnyObject", "propertyMapping"]
+- ["Ps9AnyObject", "saveToDocuments"]
+- ["Ps9AnyObject", "saveToTemp"]
+- !private ["Ps9AnyObject", "setPropertiesfromDictionary"]
+- ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "stringByAppendingPathComponent"]
+- !private ["Ps9AnyObject", "swiftStringFromClass"]
+- !private ["Ps9AnyObject", "toDictionary"]
+- !private ["Ps9AnyObject", "unarchiveObjectWithFile"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "UserDomainMask"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "EVReflection"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSKeyedArchiver"]
+- !private ["Ps11CVarArgType", "NSKeyedUnarchiver"]
+- !private ["Ps11CVarArgType", "NSLog"]
+- !private ["Ps11CVarArgType", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps11CVarArgType", "NSTemporaryDirectory"]
+- !private ["Ps11CVarArgType", "archiveRootObject"]
+- ["Ps11CVarArgType", "debugDescription"]
+- ["Ps11CVarArgType", "description"]
+- ["Ps11CVarArgType", "encodeWithCoder"]
+- ["Ps11CVarArgType", "hash"]
+- ["Ps11CVarArgType", "hashValue"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "isEqual"]
+- ["Ps11CVarArgType", "propertyConverters"]
+- ["Ps11CVarArgType", "propertyMapping"]
+- ["Ps11CVarArgType", "saveToDocuments"]
+- ["Ps11CVarArgType", "saveToTemp"]
+- ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "stringByAppendingPathComponent"]
+- !private ["Ps11CVarArgType", "toDictionary"]
+- !private ["Ps11CVarArgType", "unarchiveObjectWithFile"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "first"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "EVReflection"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSKeyedArchiver"]
+- !private ["Ps28CustomDebugStringConvertible", "NSKeyedUnarchiver"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps28CustomDebugStringConvertible", "NSTemporaryDirectory"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "archiveRootObject"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "description"]
+- ["Ps28CustomDebugStringConvertible", "encodeWithCoder"]
+- ["Ps28CustomDebugStringConvertible", "hash"]
+- ["Ps28CustomDebugStringConvertible", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isEqual"]
+- ["Ps28CustomDebugStringConvertible", "propertyConverters"]
+- ["Ps28CustomDebugStringConvertible", "propertyMapping"]
+- ["Ps28CustomDebugStringConvertible", "saveToDocuments"]
+- ["Ps28CustomDebugStringConvertible", "saveToTemp"]
+- ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "toDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "unarchiveObjectWithFile"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "children"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "EVReflection"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSKeyedArchiver"]
+- !private ["Ps23CustomStringConvertible", "NSKeyedUnarchiver"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps23CustomStringConvertible", "NSTemporaryDirectory"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "archiveRootObject"]
+- !private ["Ps23CustomStringConvertible", "children"]
+- ["Ps23CustomStringConvertible", "debugDescription"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "encodeWithCoder"]
+- ["Ps23CustomStringConvertible", "hash"]
+- ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isEqual"]
+- ["Ps23CustomStringConvertible", "propertyConverters"]
+- ["Ps23CustomStringConvertible", "propertyMapping"]
+- ["Ps23CustomStringConvertible", "saveToDocuments"]
+- ["Ps23CustomStringConvertible", "saveToTemp"]
+- ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "toDictionary"]
+- !private ["Ps23CustomStringConvertible", "unarchiveObjectWithFile"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "EVAssociated"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- ["P7SaaSPro18EVArrayConvertable", "Any"]
+- ["P7SaaSPro18EVArrayConvertable", "NSArray"]
+- ["P7SaaSPro18EVArrayConvertable", "String"]
+- ["P7SaaSPro18EVArrayConvertable", "convertArray"]
+- ["P7SaaSPro12EVAssociated", "Any"]
+- !private ["P7SaaSPro12EVAssociated", "Mirror"]
+- ["P7SaaSPro12EVAssociated", "String"]
+- ["P7SaaSPro12EVAssociated", "associated"]
+- !private ["P7SaaSPro12EVAssociated", "print"]
+- ["P7SaaSPro13EVGenericsKVC", "AnyObject"]
+- ["P7SaaSPro13EVGenericsKVC", "String"]
+- ["P7SaaSPro13EVGenericsKVC", "setValue"]
+- ["C7SaaSPro8EVObject", "Any"]
+- ["C7SaaSPro8EVObject", "AnyObject"]
+- ["C7SaaSPro8EVObject", "Bool"]
+- !private ["C7SaaSPro8EVObject", "EVGenericsKVC"]
+- !private ["C7SaaSPro8EVObject", "EVObject"]
+- !private ["C7SaaSPro8EVObject", "EVReflection"]
+- ["C7SaaSPro8EVObject", "Int"]
+- ["C7SaaSPro8EVObject", "NSCoder"]
+- ["C7SaaSPro8EVObject", "NSDictionary"]
+- !private ["C7SaaSPro8EVObject", "NSKeyedArchiver"]
+- !private ["C7SaaSPro8EVObject", "NSKeyedUnarchiver"]
+- !private ["C7SaaSPro8EVObject", "NSLog"]
+- !private ["C7SaaSPro8EVObject", "NSObject"]
+- !private ["C7SaaSPro8EVObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["C7SaaSPro8EVObject", "NSString"]
+- !private ["C7SaaSPro8EVObject", "NSTemporaryDirectory"]
+- ["C7SaaSPro8EVObject", "String"]
+- ["C7SaaSPro8EVObject", "debugDescription"]
+- ["C7SaaSPro8EVObject", "deinit"]
+- ["C7SaaSPro8EVObject", "description"]
+- ["C7SaaSPro8EVObject", "encodeWithCoder"]
+- ["C7SaaSPro8EVObject", "hash"]
+- ["C7SaaSPro8EVObject", "hashValue"]
+- ["C7SaaSPro8EVObject", "init"]
+- ["C7SaaSPro8EVObject", "isEqual"]
+- ["C7SaaSPro8EVObject", "propertyConverters"]
+- ["C7SaaSPro8EVObject", "propertyMapping"]
+- ["C7SaaSPro8EVObject", "saveToDocuments"]
+- ["C7SaaSPro8EVObject", "saveToTemp"]
+- ["C7SaaSPro8EVObject", "setValue"]
+- ["P7SaaSPro5EVRaw", "Any"]
+- ["P7SaaSPro5EVRaw", "anyRawValue"]
+- ["P7SaaSPro8EVRawInt", "Int"]
+- ["P7SaaSPro8EVRawInt", "rawValue"]
+- ["P7SaaSPro11EVRawString", "String"]
+- ["P7SaaSPro11EVRawString", "rawValue"]
+- !private ["C7SaaSPro12EVReflection", "decodeObjectWithCoder"]
+- !private ["C7SaaSPro12EVReflection", "description"]
+- !private ["C7SaaSPro12EVReflection", "dictionaryFromJson"]
+- !private ["C7SaaSPro12EVReflection", "encodeWithCoder"]
+- !private ["C7SaaSPro12EVReflection", "hashValue"]
+- !private ["C7SaaSPro12EVReflection", "setPropertiesfromDictionary"]
+- !private ["C7SaaSPro12EVReflection", "swiftStringFromClass"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "DocumentDirectory"]
+- !private ["Ps9Equatable", "EVReflection"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSKeyedArchiver"]
+- !private ["Ps9Equatable", "NSKeyedUnarchiver"]
+- !private ["Ps9Equatable", "NSLog"]
+- !private ["Ps9Equatable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9Equatable", "NSTemporaryDirectory"]
+- !private ["Ps9Equatable", "UserDomainMask"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "archiveRootObject"]
+- ["Ps9Equatable", "debugDescription"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "encodeWithCoder"]
+- ["Ps9Equatable", "hash"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isEqual"]
+- ["Ps9Equatable", "propertyConverters"]
+- ["Ps9Equatable", "propertyMapping"]
+- ["Ps9Equatable", "saveToDocuments"]
+- ["Ps9Equatable", "saveToTemp"]
+- ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "stringByAppendingPathComponent"]
+- !private ["Ps9Equatable", "toDictionary"]
+- !private ["Ps9Equatable", "unarchiveObjectWithFile"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "DocumentDirectory"]
+- !private ["Ps8Hashable", "EVReflection"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSKeyedArchiver"]
+- !private ["Ps8Hashable", "NSKeyedUnarchiver"]
+- !private ["Ps8Hashable", "NSLog"]
+- !private ["Ps8Hashable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps8Hashable", "NSTemporaryDirectory"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "archiveRootObject"]
+- ["Ps8Hashable", "debugDescription"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "encodeWithCoder"]
+- ["Ps8Hashable", "hash"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isEqual"]
+- ["Ps8Hashable", "propertyConverters"]
+- ["Ps8Hashable", "propertyMapping"]
+- ["Ps8Hashable", "saveToDocuments"]
+- ["Ps8Hashable", "saveToTemp"]
+- ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "stringByAppendingPathComponent"]
+- !private ["Ps8Hashable", "toDictionary"]
+- !private ["Ps8Hashable", "unarchiveObjectWithFile"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "IntegerLiteralType"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Vs6Mirror", "children"]
+- !private ["Vs6Mirror", "init"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["CSo7NSCoder", "archiveRootObject"]
+- !private ["CSo7NSCoder", "unarchiveObjectWithFile"]
+- !private ["PSo8NSCoding", "EVReflection"]
+- !private ["PSo8NSCoding", "NSKeyedArchiver"]
+- !private ["PSo8NSCoding", "NSKeyedUnarchiver"]
+- !private ["PSo8NSCoding", "NSLog"]
+- !private ["PSo8NSCoding", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo8NSCoding", "NSTemporaryDirectory"]
+- ["PSo8NSCoding", "encodeWithCoder"]
+- !private ["PSo8NSCoding", "hashValue"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringByAppendingPathComponent"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByAppendingPathComponent"]
+- !private ["CSo15NSKeyedArchiver", "archiveRootObject"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObjectWithFile"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "stringByAppendingPathComponent"]
+- ["CSo8NSObject", "Any"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "EVGenericsKVC"]
+- !private ["CSo8NSObject", "EVObject"]
+- !private ["CSo8NSObject", "EVReflection"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSKeyedArchiver"]
+- !private ["CSo8NSObject", "NSKeyedUnarchiver"]
+- !private ["CSo8NSObject", "NSLog"]
+- !private ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSTemporaryDirectory"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "archiveRootObject"]
+- ["CSo8NSObject", "debugDescription"]
+- ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "encodeWithCoder"]
+- ["CSo8NSObject", "hash"]
+- ["CSo8NSObject", "hashValue"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isEqual"]
+- ["CSo8NSObject", "propertyConverters"]
+- ["CSo8NSObject", "propertyMapping"]
+- ["CSo8NSObject", "saveToDocuments"]
+- ["CSo8NSObject", "saveToTemp"]
+- ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "stringByAppendingPathComponent"]
+- !private ["CSo8NSObject", "toDictionary"]
+- !private ["CSo8NSObject", "unarchiveObjectWithFile"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "EVReflection"]
+- !private ["PSo16NSObjectProtocol", "NSKeyedArchiver"]
+- !private ["PSo16NSObjectProtocol", "NSKeyedUnarchiver"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- !private ["PSo16NSObjectProtocol", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo16NSObjectProtocol", "NSTemporaryDirectory"]
+- !private ["PSo16NSObjectProtocol", "archiveRootObject"]
+- ["PSo16NSObjectProtocol", "debugDescription"]
+- ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "encodeWithCoder"]
+- ["PSo16NSObjectProtocol", "hash"]
+- ["PSo16NSObjectProtocol", "hashValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isEqual"]
+- ["PSo16NSObjectProtocol", "propertyConverters"]
+- ["PSo16NSObjectProtocol", "propertyMapping"]
+- ["PSo16NSObjectProtocol", "saveToDocuments"]
+- ["PSo16NSObjectProtocol", "saveToTemp"]
+- ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "stringByAppendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "toDictionary"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObjectWithFile"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["OSC21NSSearchPathDirectory", "DocumentDirectory"]
+- !private ["VSC22NSSearchPathDomainMask", "UserDomainMask"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByAppendingPathComponent"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByAppendingPathComponent"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "UserDomainMask"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "DocumentDirectory"]
+- !private ["Ps16RawRepresentable", "UserDomainMask"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "first"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "UserDomainMask"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "stringByAppendingPathComponent"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps17AnyCollectionType"
+- !private "Vs20AnyForwardCollection"
+- !private "Vs15AnyForwardIndex"
+- !private "Vs12AnyGenerator"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "P7SaaSPro18EVArrayConvertable"
+- "P7SaaSPro12EVAssociated"
+- "P7SaaSPro13EVGenericsKVC"
+- "C7SaaSPro8EVObject"
+- "P7SaaSPro5EVRaw"
+- "P7SaaSPro8EVRawInt"
+- "P7SaaSPro11EVRawString"
+- !private "C7SaaSPro12EVReflection"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Vs6Mirror"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "OSC21NSSearchPathDirectory"
+- !private "VSC22NSSearchPathDomainMask"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SaaSPro-Bridging-Header.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SWRevealViewController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/MaterialKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-Swift.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/module.modulemap"
+interface-hash: "91977c8da77fc3f4861a8e7e27b9a6cf"

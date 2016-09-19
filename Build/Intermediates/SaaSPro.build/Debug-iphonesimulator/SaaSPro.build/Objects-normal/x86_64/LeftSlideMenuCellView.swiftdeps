@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LeftSlideMenuCellView"
+provides-nominal:
+- "C7SaaSPro21LeftSlideMenuCellView"
+provides-member:
+- ["C7SaaSPro21LeftSlideMenuCellView", ""]
+provides-dynamic-lookup:
+- "menuIcon"
+- "menuTitle"
+depends-top-level:
+- "UIImageView"
+- "LeftSlideMenuCellView"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "menuIcon"]
+- ["Ps9AnyObject", "menuTitle"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "menuIcon"]
+- ["Ps11CVarArgType", "menuTitle"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "menuIcon"]
+- ["Ps28CustomDebugStringConvertible", "menuTitle"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "menuIcon"]
+- ["Ps23CustomStringConvertible", "menuTitle"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "menuIcon"]
+- ["Ps9Equatable", "menuTitle"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "menuIcon"]
+- ["Ps8Hashable", "menuTitle"]
+- ["Ps8Hashable", ""]
+- ["C7SaaSPro21LeftSlideMenuCellView", "UIImageView"]
+- ["C7SaaSPro21LeftSlideMenuCellView", "UILabel"]
+- ["C7SaaSPro21LeftSlideMenuCellView", "deinit"]
+- ["C7SaaSPro21LeftSlideMenuCellView", "init"]
+- ["C7SaaSPro21LeftSlideMenuCellView", "menuIcon"]
+- ["C7SaaSPro21LeftSlideMenuCellView", "menuTitle"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "menuIcon"]
+- ["PSo8NSCoding", "menuTitle"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "menuIcon"]
+- ["CSo8NSObject", "menuTitle"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "menuIcon"]
+- ["PSo16NSObjectProtocol", "menuTitle"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "menuIcon"]
+- ["PSo29UIAccessibilityIdentification", "menuTitle"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "menuIcon"]
+- ["PSo12UIAppearance", "menuTitle"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "menuIcon"]
+- ["PSo21UIAppearanceContainer", "menuTitle"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "menuIcon"]
+- ["PSo17UICoordinateSpace", "menuTitle"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "menuIcon"]
+- ["PSo13UIDynamicItem", "menuTitle"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "menuIcon"]
+- ["PSo18UIFocusEnvironment", "menuTitle"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "menuIcon"]
+- ["PSo27UIGestureRecognizerDelegate", "menuTitle"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "menuIcon"]
+- ["CSo11UIResponder", "menuTitle"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "menuIcon"]
+- ["CSo15UITableViewCell", "menuTitle"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "menuIcon"]
+- ["PSo18UITraitEnvironment", "menuTitle"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "menuIcon"]
+- ["CSo6UIView", "menuTitle"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "menuIcon"]
+- ["Ps12_Reflectable", "menuTitle"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C7SaaSPro21LeftSlideMenuCellView"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SaaSPro-Bridging-Header.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/SaaSPro/SWRevealViewController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/MaterialKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-Swift.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Headers/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/svn/buenadigital_saaspro-apps/IOS/SaaSPro.IOS/Build/Products/Debug-iphonesimulator/MaterialKit.framework/Modules/module.modulemap"
+interface-hash: "6af83f9c5f6a1a3cd068e10ab3363045"

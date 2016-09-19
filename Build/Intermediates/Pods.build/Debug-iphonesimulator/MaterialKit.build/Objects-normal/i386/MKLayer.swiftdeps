@@ -1,0 +1,573 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MKTimingFunction"
+- "MKRippleLocation"
+- "MKLayer"
+provides-nominal:
+- "O11MaterialKit16MKTimingFunction"
+- "O11MaterialKit16MKRippleLocation"
+- "C11MaterialKit7MKLayer"
+provides-member:
+- ["O11MaterialKit16MKTimingFunction", ""]
+- ["O11MaterialKit16MKRippleLocation", ""]
+- ["C11MaterialKit7MKLayer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- !private "kCAFillModeForwards"
+- !private ">"
+- !private "Array"
+- !private "-"
+- "UIColor"
+- !private "UIBezierPath"
+- !private "*"
+- "CALayer"
+- "Float"
+- "MKLayer"
+- !private "CAAnimationGroup"
+- !private "BooleanLiteralType"
+- !private "CGRectGetHeight"
+- !private "CABasicAnimation"
+- "MKRippleLocation"
+- "MKTimingFunction"
+- "CGPoint"
+- "Bool"
+- !private "CATransaction"
+- !private "StringLiteralType"
+- "=="
+- !private "CGRect"
+- "CAShapeLayer"
+- !private "max"
+- "CGFloat"
+- "CAMediaTimingFunction"
+- !private "CGRectGetWidth"
+- "CFTimeInterval"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CAAnimationGroup"]
+- !private ["PSs9AnyObject", "CABasicAnimation"]
+- ["PSs9AnyObject", "CALayer"]
+- ["PSs9AnyObject", "CAShapeLayer"]
+- !private ["PSs9AnyObject", "CATransaction"]
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPath"]
+- !private ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "CGRect"]
+- !private ["PSs9AnyObject", "CGRectGetHeight"]
+- !private ["PSs9AnyObject", "CGRectGetWidth"]
+- !private ["PSs9AnyObject", "UIBezierPath"]
+- !private ["PSs9AnyObject", "addAnimation"]
+- !private ["PSs9AnyObject", "addSublayer"]
+- !private ["PSs9AnyObject", "animateShadowForLayer"]
+- !private ["PSs9AnyObject", "animations"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- !private ["PSs9AnyObject", "backgroundLayer"]
+- !private ["PSs9AnyObject", "begin"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "commit"]
+- !private ["PSs9AnyObject", "cornerRadius"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "duration"]
+- !private ["PSs9AnyObject", "fillMode"]
+- !private ["PSs9AnyObject", "frame"]
+- !private ["PSs9AnyObject", "fromValue"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kCAFillModeForwards"]
+- !private ["PSs9AnyObject", "mask"]
+- !private ["PSs9AnyObject", "maskLayer"]
+- !private ["PSs9AnyObject", "max"]
+- !private ["PSs9AnyObject", "opacity"]
+- !private ["PSs9AnyObject", "path"]
+- !private ["PSs9AnyObject", "removeFromSuperlayer"]
+- !private ["PSs9AnyObject", "removedOnCompletion"]
+- !private ["PSs9AnyObject", "rippleLayer"]
+- !private ["PSs9AnyObject", "rippleLocation"]
+- !private ["PSs9AnyObject", "ripplePercent"]
+- !private ["PSs9AnyObject", "setCircleLayerLocationAt"]
+- !private ["PSs9AnyObject", "setDisableActions"]
+- !private ["PSs9AnyObject", "setMaskLayerCornerRadius"]
+- !private ["PSs9AnyObject", "superLayer"]
+- !private ["PSs9AnyObject", "timingFunction"]
+- !private ["PSs9AnyObject", "toValue"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "animations"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fillMode"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "removedOnCompletion"]
+- !private ["PSo8CAAction", "timingFunction"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "animations"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fillMode"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "removedOnCompletion"]
+- !private ["CSo11CAAnimation", "timingFunction"]
+- !private ["CSo11CAAnimation", "toValue"]
+- !private ["CSo16CAAnimationGroup", "animations"]
+- !private ["CSo16CAAnimationGroup", "duration"]
+- !private ["CSo16CAAnimationGroup", "fillMode"]
+- !private ["CSo16CAAnimationGroup", "init"]
+- !private ["CSo16CAAnimationGroup", "removedOnCompletion"]
+- !private ["CSo16CAAnimationGroup", "timingFunction"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "timingFunction"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["CSo7CALayer", "addAnimation"]
+- !private ["CSo7CALayer", "addSublayer"]
+- !private ["CSo7CALayer", "backgroundColor"]
+- !private ["CSo7CALayer", "bounds"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["CSo7CALayer", "frame"]
+- ["CSo7CALayer", "init"]
+- !private ["CSo7CALayer", "mask"]
+- !private ["CSo7CALayer", "opacity"]
+- !private ["CSo7CALayer", "path"]
+- !private ["CSo7CALayer", "removeFromSuperlayer"]
+- !private ["PSo13CAMediaTiming", "addAnimation"]
+- !private ["PSo13CAMediaTiming", "addSublayer"]
+- !private ["PSo13CAMediaTiming", "animations"]
+- !private ["PSo13CAMediaTiming", "backgroundColor"]
+- !private ["PSo13CAMediaTiming", "bounds"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fillMode"]
+- !private ["PSo13CAMediaTiming", "frame"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "mask"]
+- !private ["PSo13CAMediaTiming", "opacity"]
+- !private ["PSo13CAMediaTiming", "path"]
+- !private ["PSo13CAMediaTiming", "removeFromSuperlayer"]
+- !private ["PSo13CAMediaTiming", "removedOnCompletion"]
+- !private ["PSo13CAMediaTiming", "timingFunction"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo21CAMediaTimingFunction", "init"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "timingFunction"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["CSo12CAShapeLayer", "deinit"]
+- ["CSo12CAShapeLayer", "init"]
+- !private ["CSo12CAShapeLayer", "path"]
+- !private ["CSo13CATransaction", "begin"]
+- !private ["CSo13CATransaction", "commit"]
+- !private ["CSo13CATransaction", "setDisableActions"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "width"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGPath"]
+- !private ["PSs11CVarArgType", "addAnimation"]
+- !private ["PSs11CVarArgType", "addSublayer"]
+- !private ["PSs11CVarArgType", "animations"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "begin"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "commit"]
+- !private ["PSs11CVarArgType", "cornerRadius"]
+- !private ["PSs11CVarArgType", "duration"]
+- !private ["PSs11CVarArgType", "fillMode"]
+- !private ["PSs11CVarArgType", "frame"]
+- !private ["PSs11CVarArgType", "fromValue"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "mask"]
+- !private ["PSs11CVarArgType", "opacity"]
+- !private ["PSs11CVarArgType", "path"]
+- !private ["PSs11CVarArgType", "removeFromSuperlayer"]
+- !private ["PSs11CVarArgType", "removedOnCompletion"]
+- !private ["PSs11CVarArgType", "setDisableActions"]
+- !private ["PSs11CVarArgType", "timingFunction"]
+- !private ["PSs11CVarArgType", "toValue"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs10Comparable", "hashValue"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGPath"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAnimation"]
+- !private ["PSs23CustomStringConvertible", "addSublayer"]
+- !private ["PSs23CustomStringConvertible", "animations"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "begin"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "commit"]
+- !private ["PSs23CustomStringConvertible", "cornerRadius"]
+- !private ["PSs23CustomStringConvertible", "duration"]
+- !private ["PSs23CustomStringConvertible", "fillMode"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- !private ["PSs23CustomStringConvertible", "fromValue"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "mask"]
+- !private ["PSs23CustomStringConvertible", "opacity"]
+- !private ["PSs23CustomStringConvertible", "path"]
+- !private ["PSs23CustomStringConvertible", "removeFromSuperlayer"]
+- !private ["PSs23CustomStringConvertible", "removedOnCompletion"]
+- !private ["PSs23CustomStringConvertible", "setDisableActions"]
+- !private ["PSs23CustomStringConvertible", "timingFunction"]
+- !private ["PSs23CustomStringConvertible", "toValue"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGPath"]
+- ["PSs9Equatable", "Center"]
+- ["PSs9Equatable", "Left"]
+- ["PSs9Equatable", "Right"]
+- ["PSs9Equatable", "TapLocation"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAnimation"]
+- !private ["PSs9Equatable", "addSublayer"]
+- !private ["PSs9Equatable", "animations"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "begin"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "commit"]
+- !private ["PSs9Equatable", "cornerRadius"]
+- !private ["PSs9Equatable", "duration"]
+- !private ["PSs9Equatable", "fillMode"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "fromValue"]
+- ["PSs9Equatable", "hashValue"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "mask"]
+- !private ["PSs9Equatable", "opacity"]
+- !private ["PSs9Equatable", "path"]
+- !private ["PSs9Equatable", "removeFromSuperlayer"]
+- !private ["PSs9Equatable", "removedOnCompletion"]
+- !private ["PSs9Equatable", "setDisableActions"]
+- !private ["PSs9Equatable", "timingFunction"]
+- !private ["PSs9Equatable", "toValue"]
+- !private ["PSs9Equatable", "width"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGPath"]
+- ["PSs8Hashable", "Center"]
+- ["PSs8Hashable", "Left"]
+- ["PSs8Hashable", "Right"]
+- ["PSs8Hashable", "TapLocation"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAnimation"]
+- !private ["PSs8Hashable", "addSublayer"]
+- !private ["PSs8Hashable", "animations"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "begin"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "commit"]
+- !private ["PSs8Hashable", "cornerRadius"]
+- !private ["PSs8Hashable", "duration"]
+- !private ["PSs8Hashable", "fillMode"]
+- !private ["PSs8Hashable", "frame"]
+- !private ["PSs8Hashable", "fromValue"]
+- ["PSs8Hashable", "hashValue"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "mask"]
+- !private ["PSs8Hashable", "opacity"]
+- !private ["PSs8Hashable", "path"]
+- !private ["PSs8Hashable", "removeFromSuperlayer"]
+- !private ["PSs8Hashable", "removedOnCompletion"]
+- !private ["PSs8Hashable", "setDisableActions"]
+- !private ["PSs8Hashable", "timingFunction"]
+- !private ["PSs8Hashable", "toValue"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["Si", "hashValue"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "hashValue"]
+- ["C11MaterialKit7MKLayer", "Bool"]
+- !private ["C11MaterialKit7MKLayer", "CAAnimationGroup"]
+- !private ["C11MaterialKit7MKLayer", "CABasicAnimation"]
+- ["C11MaterialKit7MKLayer", "CALayer"]
+- ["C11MaterialKit7MKLayer", "CAShapeLayer"]
+- !private ["C11MaterialKit7MKLayer", "CATransaction"]
+- ["C11MaterialKit7MKLayer", "CFTimeInterval"]
+- ["C11MaterialKit7MKLayer", "CGFloat"]
+- ["C11MaterialKit7MKLayer", "CGPoint"]
+- !private ["C11MaterialKit7MKLayer", "CGRect"]
+- !private ["C11MaterialKit7MKLayer", "CGRectGetHeight"]
+- !private ["C11MaterialKit7MKLayer", "CGRectGetWidth"]
+- ["C11MaterialKit7MKLayer", "Float"]
+- ["C11MaterialKit7MKLayer", "MKRippleLocation"]
+- ["C11MaterialKit7MKLayer", "MKTimingFunction"]
+- !private ["C11MaterialKit7MKLayer", "UIBezierPath"]
+- ["C11MaterialKit7MKLayer", "UIColor"]
+- ["C11MaterialKit7MKLayer", "animateAlphaForBackgroundLayer"]
+- ["C11MaterialKit7MKLayer", "animateMaskLayerShadow"]
+- ["C11MaterialKit7MKLayer", "animateScaleForCircleLayer"]
+- !private ["C11MaterialKit7MKLayer", "animateShadowForLayer"]
+- ["C11MaterialKit7MKLayer", "animateSuperLayerShadow"]
+- !private ["C11MaterialKit7MKLayer", "backgroundLayer"]
+- ["C11MaterialKit7MKLayer", "deinit"]
+- ["C11MaterialKit7MKLayer", "didChangeTapLocation"]
+- ["C11MaterialKit7MKLayer", "enableMask"]
+- ["C11MaterialKit7MKLayer", "enableOnlyCircleLayer"]
+- ["C11MaterialKit7MKLayer", "init"]
+- !private ["C11MaterialKit7MKLayer", "kCAFillModeForwards"]
+- !private ["C11MaterialKit7MKLayer", "maskLayer"]
+- !private ["C11MaterialKit7MKLayer", "max"]
+- !private ["C11MaterialKit7MKLayer", "rippleLayer"]
+- ["C11MaterialKit7MKLayer", "rippleLocation"]
+- ["C11MaterialKit7MKLayer", "ripplePercent"]
+- ["C11MaterialKit7MKLayer", "setBackgroundLayerColor"]
+- ["C11MaterialKit7MKLayer", "setBackgroundLayerCornerRadius"]
+- ["C11MaterialKit7MKLayer", "setCircleLayerColor"]
+- !private ["C11MaterialKit7MKLayer", "setCircleLayerLocationAt"]
+- ["C11MaterialKit7MKLayer", "setMaskLayerCornerRadius"]
+- !private ["C11MaterialKit7MKLayer", "superLayer"]
+- ["C11MaterialKit7MKLayer", "superLayerDidResize"]
+- ["O11MaterialKit16MKRippleLocation", "Center"]
+- ["O11MaterialKit16MKRippleLocation", "Left"]
+- ["O11MaterialKit16MKRippleLocation", "Right"]
+- ["O11MaterialKit16MKRippleLocation", "TapLocation"]
+- ["O11MaterialKit16MKRippleLocation", "deinit"]
+- ["O11MaterialKit16MKRippleLocation", "hashValue"]
+- ["O11MaterialKit16MKTimingFunction", "CAMediaTimingFunction"]
+- ["O11MaterialKit16MKTimingFunction", "Custom"]
+- ["O11MaterialKit16MKTimingFunction", "EaseIn"]
+- ["O11MaterialKit16MKTimingFunction", "EaseOut"]
+- ["O11MaterialKit16MKTimingFunction", "Float"]
+- ["O11MaterialKit16MKTimingFunction", "Linear"]
+- ["O11MaterialKit16MKTimingFunction", "function"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGPath"]
+- !private ["PSo8NSCoding", "addAnimation"]
+- !private ["PSo8NSCoding", "addSublayer"]
+- !private ["PSo8NSCoding", "animations"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fillMode"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "fromValue"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mask"]
+- !private ["PSo8NSCoding", "opacity"]
+- !private ["PSo8NSCoding", "path"]
+- !private ["PSo8NSCoding", "removeFromSuperlayer"]
+- !private ["PSo8NSCoding", "removedOnCompletion"]
+- !private ["PSo8NSCoding", "timingFunction"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "CGPath"]
+- !private ["PSo9NSCopying", "animations"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fillMode"]
+- !private ["PSo9NSCopying", "fromValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "removedOnCompletion"]
+- !private ["PSo9NSCopying", "timingFunction"]
+- !private ["PSo9NSCopying", "toValue"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "CGColor"]
+- !private ["CSo8NSObject", "CGPath"]
+- !private ["CSo8NSObject", "addAnimation"]
+- !private ["CSo8NSObject", "addSublayer"]
+- !private ["CSo8NSObject", "animations"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "begin"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "commit"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fillMode"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "fromValue"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mask"]
+- !private ["CSo8NSObject", "opacity"]
+- !private ["CSo8NSObject", "path"]
+- !private ["CSo8NSObject", "removeFromSuperlayer"]
+- !private ["CSo8NSObject", "removedOnCompletion"]
+- !private ["CSo8NSObject", "setDisableActions"]
+- !private ["CSo8NSObject", "timingFunction"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGPath"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- !private ["PSo16NSObjectProtocol", "addSublayer"]
+- !private ["PSo16NSObjectProtocol", "animations"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "begin"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "commit"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fillMode"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mask"]
+- !private ["PSo16NSObjectProtocol", "opacity"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "removeFromSuperlayer"]
+- !private ["PSo16NSObjectProtocol", "removedOnCompletion"]
+- !private ["PSo16NSObjectProtocol", "setDisableActions"]
+- !private ["PSo16NSObjectProtocol", "timingFunction"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "hashValue"]
+- !private ["PSs10Strideable", "init"]
+- !private ["CSo12UIBezierPath", "CGPath"]
+- !private ["CSo12UIBezierPath", "init"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- !private ["PSs12_Reflectable", "Element"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- !private ["PSs11_Strideable", "hashValue"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo16CAAnimationGroup"
+- !private "CSo16CABasicAnimation"
+- "CSo7CALayer"
+- "PSo13CAMediaTiming"
+- !private "CSo21CAMediaTimingFunction"
+- !private "CSo19CAPropertyAnimation"
+- "CSo12CAShapeLayer"
+- !private "CSo13CATransaction"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C11MaterialKit7MKLayer"
+- "O11MaterialKit16MKRippleLocation"
+- "O11MaterialKit16MKTimingFunction"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "CSo12UIBezierPath"
+- !private "CSo7UIColor"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Pods/Target Support Files/MaterialKit/MaterialKit-umbrella.h"
+- "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/MaterialKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "1e0990befd34eb54d760fd15fbcec4f7"

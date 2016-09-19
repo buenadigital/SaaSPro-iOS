@@ -1,0 +1,10 @@
+framework module MaterialKit {
+  umbrella header "MaterialKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MaterialKit.__Swift {
+    exclude header "MaterialKit-Swift.h"
+}

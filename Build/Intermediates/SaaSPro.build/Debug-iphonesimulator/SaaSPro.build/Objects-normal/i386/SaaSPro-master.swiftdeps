@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "59ca3351b7e7d87eda57100ad0bff725"
+build_time: [501896829, 387718000]
+inputs:
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/FadeInPushSegue.swift": [501826187, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/EVExtensions.swift": [501763454, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SettingsModel.swift": [501816015, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/AppDelegate.swift": [501813615, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/EVReflection.swift": [501763451, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/EVObjectDescription.swift": [501763451, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/LoginViewController.swift": [501896826, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/UIViewAnimationExtension.swift": [501880387, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/EVObject.swift": [501763484, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/WebService.swift": [501818689, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/SplashScreenViewController.swift": [501834476, 0]
+  "/Users/stepanmaksymov/Documents/buenadigital_saaspro/IOS/SaaSPro.IOS/SaaSPro/FadeOutPopSegue.swift": [501826287, 0]
