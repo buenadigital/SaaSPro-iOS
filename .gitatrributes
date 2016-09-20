@@ -2,3 +2,6 @@
 * text=auto
 *.js text
 *.swift text
+
+*.makefile linguist-vendored=true
+*.objective-c linguist-vendored=true
