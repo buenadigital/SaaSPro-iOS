@@ -1,7 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.js text
 *.swift text
 
-*.makefile linguist-vendored=true
 *.objective-c linguist-vendored=true
